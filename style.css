@@ -1,8 +1,45 @@
 html, body {
     height: 100%;
     box-sizing: border-box;
+    font-family: "Roboto";
+    font-size: 14px;
 }
 
 *, *:before, *:after {
     box-sizing: inherit;
+}
+
+body {
+  background-image: url("bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.main {
+  width: 500px;
+  margin: auto;
+  position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.logo {
+  font-size: 40px;
+  color: white;
+  margin-bottom: 12px;
+  margin-top: 0;
+}
+.tagline {
+  font-size: 20px;
+  color: white;
+}
+.button {
+  background-color: blueviolet;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.button:hover {
+  background: white;
+  color: blue;
 }
