@@ -125,9 +125,8 @@ chat page
   width: 600px;
 }
 .message.by-user {
-
-  right: 0;
-  width: 600px;
+float : right;
+  width: 70%;
   margin: 10px;
   background: #2c9e8e;
 }
