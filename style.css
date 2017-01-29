@@ -114,7 +114,7 @@ chat page
   color: darkblue;
 }
 .messages {
-  height: 90%;
+  height: 70%;
   overflow: auto;
 }
 .message {
