@@ -12,151 +12,51 @@
 <body>
     <div class="members-area">
       <div class="user-info">
-              Chirag Modi
+            <span id="username"></span>
               <span class="logout">logout</span>
       </div>
-      <div class="members">
+      <div class="members" id = "members">
         <div class="member active">
-            Dhruval
+            Dhaval
         </div>
-        <div class="member">
-            Arpit
-        </div>
-        <div class="member">
-            Bhargav
-        </div>
-        <div class="member">
-            Shivam
-        </div>
-        <div class="member">
-            Mainak
-        </div>
-        <div class="member">
-            shreya
-        </div>
-        <div class="member">
-            Dishu
-        </div>
-        <div class="member">
-            Harsh
-        </div>
-        <div class="member">
-            Maitreya
-        </div>
-        <div class="member">
-            Jadav
-        </div>
-        <div class="member">
-            Kriti
-        </div>
-        <div class="member">
-            Rudra
-        </div>
-        <div class="member">
-            Yash
-        </div>
-        <div class="member">
-            Hanky
-        </div>
-        <div class="member">
-            John
-        </div>
-        <div class="member">
-            guddy
-        </div>
-        <div class="member">
-            Vedant
-        </div>
-        <div class="member">
-            Rutvik
-        </div>
-      </div>
+              </div>
     </div>
     <div class="messages-area">
         <div class="chat-info">
           <div class="ch-in">
-            Dhruval
+            Divyesh
           </div>
         </div>
-        <div class="messages">
-          <div class="message by-user">
-                Hey
-          </div>
-          <div class="message">
-                What'sup
-          </div>
-          <div class="message by-user">
-                Learning HTML & CSS.
-          </div>
-          <div class="message">
-                Cool..!! Sourse?
-          </div>
-          <div class="message by-user">
-                Webkit
-          </div>
-          <div class="message">
-                Good
-          </div>
-          <div class="message by-user">
-                Have a great day.
-          </div>
-          <div class="message">
-                S2U.
-          </div>
-          <div class="message by-user">
-                Hey
-          </div>
-          <div class="message">
-                What'sup
-          </div>
-          <div class="message by-user">
-                Learning HTML & CSS.
-          </div>
-          <div class="message">
-                Cool..!! Sourse?
-          </div>
-          <div class="message by-user">
-                Webkit
-          </div>
-          <div class="message">
-                Good
-          </div>
-          <div class="message by-user">
-                Have a great day.
-          </div>
-          <div class="message">
-                S2U.
-          </div>
-          <div class="message by-user">
-                Hey
-          </div>
-          <div class="message">
-                What'sup
-          </div>
-          <div class="message by-user">
-                Learning HTML & CSS.
-          </div>
-          <div class="message">
-                Cool..!! Sourse?
-          </div>
-          <div class="message by-user">
-                Webkit
-          </div>
-          <div class="message">
-                Good
-          </div>
-          <div class="message by-user">
-                Have a great day.
-          </div>
-          <div class="message">
-                S2U.
-          </div>
-        </div>
-        <div class="chat-form">
-          <input type="text" class="chat-message" placeholder="write your message and press Enter..."/>
+                <div class="messages" id="messages">
+                    <div id="message by-user">
 
+                    </div>
+                </div>
+
+        <div class="chat-form">
+          <input type="hidden" id="chat-id">
+          <input id="message-text" type="text" class="chat-message" placeholder="write your message and press Enter..."/>
+            <button id="send-button">Send</button>
         </div>
     </div>
+
+    <script src="https://www.gstatic.com/firebasejs/3.6.7/firebase.js"></script>
+    <script>
+      // Initialize Firebase
+      var config = {
+        apiKey: "AIzaSyDMEu4sbqiQsteBrDeRqLtxXt9XBkX3MOs",
+        authDomain: "snappychat-e3f77.firebaseapp.com",
+        databaseURL: "https://snappychat-e3f77.firebaseio.com",
+        storageBucket: "snappychat-e3f77.appspot.com",
+        messagingSenderId: "319090298482"
+      };
+      firebase.initializeApp(config);
+    </script>
+
+    <script type="text/javascript" src="functions.js"></script>
+    <script type="text/javascript" src="app.js"></script>
+    <script type="text/javascript" src="chat.js"></script>
+
 </body>
 
 </html>

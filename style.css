@@ -3,6 +3,7 @@ html, body {
     box-sizing: border-box;
     font-family: "Roboto";
     font-size: 14px;
+  background : black;
 }
 
 *, *:before, *:after {
@@ -38,10 +39,12 @@ body.homepage {
   padding: 10px 20px;
   border-radius: 4px;
   cursor: pointer;
+  font-weight: 400;
 }
 .button:hover {
   background: white;
   color: blue;
+  font-weight: 800;
 }
 
 /*
@@ -53,9 +56,10 @@ chat page
   bottom: 0;
   left: 0;
   width: 30%;
+  border-radius: 10px;
+  background: #8e6279;
+  color: white;
   overflow: auto;
-  background: #c91cc0;
-    color: white;
 }
 .messages-area {
   position: fixed;
@@ -81,7 +85,7 @@ chat page
 }
 .member {
   padding: 10px;
-  background: blue;
+  background: #121721;
   border-bottom: solid 1px purple;
   border-radius: 4px;
 }
@@ -91,16 +95,18 @@ chat page
   cursor: pointer;
 }
 .chat-info {
-  background-color: #19e86f;
-  padding: 20px;
+
+  border-radius: 10px;
+  padding: 6px;
   color: black;
 }
 .ch-in {
-  background: #d3e2d9;
-  font-size: 18px;
+  text-align: center;
+  color: white;
+  font-size: 24px;
   font-family: sans-serif;
-  border-radius: 15px;
-  width: auto;
+  font-weight: 500;
+  border-radius: 8px;
 }
 .member.active {
   background-color: white;
@@ -108,9 +114,7 @@ chat page
   color: darkblue;
 }
 .messages {
-
-  height: 86%;
-  padding: 10px;
+  height: 90%;
   overflow: auto;
 }
 .message {
@@ -121,16 +125,18 @@ chat page
   width: 600px;
 }
 .message.by-user {
+
+  right: 0;
+  width: 600px;
   margin: 10px;
-  background: #c92d22;
+  background: #2c9e8e;
 }
 .chat-form {
   position: fixed;
   left: 30%;
   bottom: 0;
   width: 70%;
-
-  margin-bottom: 6px;
+  margin-bottom: 1px;
 }
 .chat-message {
     padding: 6px;

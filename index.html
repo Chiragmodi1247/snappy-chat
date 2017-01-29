@@ -13,8 +13,27 @@
   <div class="main">
     <h1 class="logo">Snappy</h1>
     <p class="tagline">An instant platform for chat</p>
-    <button class="button">Sign in with Google</button>
+    <button id="signin" class="button">Sign in with Google</button>
   </div>
+
+  <script src="https://www.gstatic.com/firebasejs/3.6.7/firebase.js"></script>
+  <script>
+    // Initialize Firebase
+    var config = {
+      apiKey: "AIzaSyDMEu4sbqiQsteBrDeRqLtxXt9XBkX3MOs",
+      authDomain: "snappychat-e3f77.firebaseapp.com",
+      databaseURL: "https://snappychat-e3f77.firebaseio.com",
+      storageBucket: "snappychat-e3f77.appspot.com",
+      messagingSenderId: "319090298482"
+    };
+    firebase.initializeApp(config);
+  </script>
+
+  <script type="text/javascript" src="functions.js">
+  </script>
+  <script type="text/javascript" src="app.js">
+
+  </script>
 </body>
 
 </html>
