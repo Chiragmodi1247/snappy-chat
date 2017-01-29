@@ -118,7 +118,7 @@ chat page
   overflow: auto;
 }
 .message {
-  background: white;
+  background: pink;
   padding: 10px;
   margin: 10px;
   border-radius: 10px;
