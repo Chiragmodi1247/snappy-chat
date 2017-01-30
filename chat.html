@@ -5,7 +5,7 @@
     <title> snappy </title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css">
 
 </head>
 
@@ -15,28 +15,18 @@
             <span id="username"></span>
               <span class="logout">logout</span>
       </div>
-      <div class="members" id = "members">
-        <div class="member active">
-            Dhaval
-        </div>
-              </div>
+      <div class="members" id = "members"></div>
     </div>
     <div class="messages-area">
-        <div class="chat-info">
-          <div class="ch-in">
-            Divyesh
-          </div>
+        <div class="chat-info" id="chat-in">
+        <!--chat name-->
         </div>
-                <div class="messages" id="messages">
-                    <div id="message by-user">
-
-                    </div>
-                </div>
+                <div class="messages" id="messages"></div>
 
         <div class="chat-form">
           <input type="hidden" id="chat-id" />
           <input id="message-text" type="text" class="chat-message" placeholder="write your message and press Enter..."/>
-            <button id="send-button">Send</button>
+            <button id="send-button" class="btn-send">Send</button>
         </div>
     </div>
 

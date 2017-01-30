@@ -95,24 +95,15 @@ chat page
   cursor: pointer;
 }
 .chat-info {
-
   border-radius: 10px;
   padding: 6px;
   color: black;
 }
-.ch-in {
-  text-align: center;
-  color: white;
-  font-size: 24px;
-  font-family: sans-serif;
-  font-weight: 500;
-  border-radius: 8px;
-}
-.member.active {
+/*.member.active {
   background-color: white;
   font-weight: bold;
   color: darkblue;
-}
+}*/
 .messages {
   height: 70%;
   overflow: auto;
