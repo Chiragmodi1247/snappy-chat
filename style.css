@@ -57,7 +57,7 @@ chat page
   left: 0;
   width: 30%;
   border-radius: 10px;
-  background: #8e6279;
+  background: grey;
   color: white;
   overflow: auto;
 }
@@ -79,9 +79,7 @@ chat page
   border-radius: 10px;
   margin: 5px;
 }
-.logout {
-  float : right;
-}
+
 .member {
   font-size: 18px;
   padding: 10px;
@@ -95,15 +93,13 @@ chat page
   cursor: pointer;
 }
 .chat-info {
-  border-radius: 10px;
-  padding: 6px;
-  color: black;
+	padding: 12px;
+	color: black;
+	font-size: 20px;
+	font-weight: bolder;
+
 }
-.member.active {
-  background-color: white;
-  font-weight: bold;
-  color: darkblue;
-}
+
 .messages {
   overflow: auto;
   height: 90%;
@@ -111,34 +107,58 @@ chat page
 .message {
   float: left;
   width: 60%;
-  margin-bottom: 10px;
-  padding: 15px;
-  border-radius: 10px;
-  width: 600px;
+  margin-bottom: 6px;
+  padding: 6px;
+  border-radius: 6px;
   background: lightblue;
+  font-size: 18px;
+  font-weight:300;
 }
 .message.by-user {
   float: right;
 
   	width: 60%;
   	margin-bottom: 10px;
-  	padding: 15px;
+  	padding: 6px;
 
   	border-radius: 6px;
   	background:#fff;
 }
+/*
 .chat-form {
   position: fixed;
   left: 30%;
   bottom: 0;
   width: 70%;
-  margin-bottom: 1px;
+  padding: 10px;
+  background: white;
+  background-color: #F17327;
+}*/
+.btn-send{
+  float: right;
+  width: 8%;
+  padding: 8px;
+  color: grey;
+  border-radius: 15px;
+  background-color: blue;
+}
+.btn-send:hover{
+  cursor: pointer;
 }
 .chat-message {
-  float: left;
+    float: left;
     padding: 10px;
     border: solid 1px lightgray;
-    border-radius: 20px;
-    display: black;
-    width: 90%;
+    border-radius: 15px;
+    display: block;
+    width: 92%;
+}
+.logout{
+  float: right;
+  padding: 2px;
+  background: lightgreen;
+  border-radius: 10px;
+}
+.logout:hover{
+  cursor: pointer;
 }
